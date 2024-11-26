@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Portafolio extends Controller
+class ReviewController extends Controller
 {
-        /**
+    /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('portafolio.index');
+        return view('review.index');
     }
 
     /**
@@ -20,7 +20,7 @@ class Portafolio extends Controller
     public function create()
     {
         // Falta Lógica
-        return view('portafolio.create');
+        return view('review.create');
     }
 
     /**
@@ -39,7 +39,7 @@ class Portafolio extends Controller
     public function show()
     {
         // Falta lógica
-        return view('portafolio.show',);
+        return view('review.show',);
     }
 
     /**
@@ -50,7 +50,7 @@ class Portafolio extends Controller
     public function edit()
     {
         // Falta lógica
-        return view('portafolio.edit');
+        return view('review.edit');
     }
 
     /**

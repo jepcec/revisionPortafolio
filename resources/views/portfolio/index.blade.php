@@ -3,12 +3,16 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Control de revision Portafolios</h1>
+    <h1>Portafolio</h1>
 @stop
 
+{{-- Aquí va el contendio del la ventana --}}
 @section('content')
-    <p>Bien venido al sistema que sirve como apoyo, para la revision de portafolios de los docentes de la escula profesional de ingenieria informatica y sistemas de la UNSAAC.</p>
+    Aquí Estaran los requisitos del portafolio a enviar,
+    más un boton para enviar.
+    {{-- ¡¡¡¡ AQUI !!!!!--}}
 @stop
+{{-- Aquí Termina el contenido--}}
 
 @section('css')
     {{-- Add here extra stylesheets --}}

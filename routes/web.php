@@ -13,9 +13,7 @@ Route::get('/', function () {
 
 // Ventas de cada persona
 Route::resource('/portafolio', PortfolioController::class);
-// Route::resource('/portafolio/practical-evaluation', PracticalEvaluationController::class);
-Route::resource('/practical', PracticalEvaluationController::class);
-Route::resource('/revision', ReviewController::class);
+
 Route::resource('/asignar', DelegateController::class);
 
 Route::get('/dashboard', function () {

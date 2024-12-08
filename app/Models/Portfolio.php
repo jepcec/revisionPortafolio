@@ -45,4 +45,14 @@ class Portfolio extends Model
     public function revisions() {
         return $this->hasMany(Revision::class);
     }
+
+    // Metodo para retornar los demas profesores
+    public function practice() {
+        return $this->hasOne(Practice::class);
+    }
+
+    // Metodo para retornar los demas profesores
+    public function Theory() {
+        return $this->hasOne(Theory::class);
+    }
 }

@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ReviewController extends Controller
+class RevisionController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('review.index');
+        return view('revision.index');
     }
 
     /**
@@ -20,7 +20,7 @@ class ReviewController extends Controller
     public function create()
     {
         // Falta Lógica
-        return view('review.create');
+        return view('revision.create');
     }
 
     /**
@@ -39,7 +39,7 @@ class ReviewController extends Controller
     public function show()
     {
         // Falta lógica
-        return view('review.show',);
+        return view('revision.show',);
     }
 
     /**
@@ -50,7 +50,7 @@ class ReviewController extends Controller
     public function edit()
     {
         // Falta lógica
-        return view('review.edit');
+        return view('revision.edit');
     }
 
     /**

@@ -3,8 +3,7 @@
 use App\Http\Controllers\DelegateController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\ReviewController;
-use App\Http\Controllers\PracticalEvaluationController;
+use App\Http\Controllers\RevisionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -14,8 +13,8 @@ Route::get('/', function () {
 // Ventas de cada persona
 Route::resource('/portafolio', PortfolioController::class);
 // Route::resource('/portafolio/practical-evaluation', PracticalEvaluationController::class);
-Route::resource('/practical', PracticalEvaluationController::class);
-Route::resource('/revision', ReviewController::class);
+//Route::resource('/practical', PracticalEvaluationController::class);
+Route::resource('/revision', RevisionController::class);
 Route::resource('/asignar', DelegateController::class);
 
 Route::get('/dashboard', function () {

@@ -20,7 +20,7 @@
             <a class="dropdown-item" href="#" onclick="selectItem('Elemento 1')">Elemento 1</a>
             <a class="dropdown-item" href="#" onclick="selectItem('Elemento 2')">Elemento 2</a>
             <a class="dropdown-item" href="#" onclick="selectItem('Elemento 3')">Elemento 3</a>
-            <a class="dropdown-item" href="#" onclick="selectItem('Elemento 4')">Elemento 4</a>
+            <a class="dropdown-item" href="#" onclick="selectItem('Elemento 4')">Elementos 4</a>
 
             {{-- Para mostrar los datos de los docentes revisores         --}}
             {{-- @forelse($elementos as $elemento)

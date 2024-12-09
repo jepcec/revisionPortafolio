@@ -505,7 +505,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                    </div><fieldset class="form-group">
+                    <fieldset class="form-group">
                         <legend class="text-primary font-weight-bold d-flex align-items-center">
                             Proyectos individuales y grupales
                             <!-- Botón alineado a la derecha -->
@@ -527,7 +527,7 @@
                     </div>
                     <div class="form-check">
                         <input class="form-check-input10" type="checkbox" id="opcion15" name="opciones[]" value="opcion15">
-                        <label class="form-check-label" for="opcion15">Informe de entrega final de proyectos y resultaods de calificación</label>
+                        <label class="form-check-label" for="opcion15">Informe de entrega final de proyectos y resultados de calificación</label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input10" type="checkbox" id="opcion15" name="opciones[]" value="opcion15">
